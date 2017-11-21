@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css?family=Slackey');
+
+.container{
+	width: 1366px;
+	display: block;
+	margin: 0 auto;
+}
+body{
+    overflow-x: hidden;
+}
+.container .header{
+	background-color: #76b82a;
+    color:#ffffff;
+    padding: 15px 0px;
+    height: 90px;
+}
+section{
+	width: 100%;
+}
+
+section.products{
+    margin-left: 230px;
+    padding: 10px;
+}
+
+section.products{
+    margin-left: -12px;
+    padding: 10px;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+nav li a.Order-online{
+    margin-left: 20px;
+}
+.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+}
+
+a{
+    color: white
+}
+
+.container a:hover, .dropdown:hover .dropbtn {
+    background-color: #76b82a
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #f6f6f6;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.container .header img{
+	margin-left: 410px; 
+}
+.container nav.left   {
+	display: inline-block;
+	height: 100%;
+	margin-top: 70px;
+    margin-left: -790px;
+}
+.container nav.right   {
+	display: inline-block;
+    height: 100%;
+    float: right;
+    margin-top: -90px;
+    margin-right: 30px;
+}
+.container .header ul li {
+    width: 100%;
+    height: 100%;
+    display: inline;
+    margin: 0 10px;
+    font-size: 25px;
+    font-family: Arial;
+    cursor: pointer;
+}
+.banner{
+    display: block;
+    position: relative;
+}
+
+.banner-image{
+    display: block;
+    width:100%;
+    position: relative; 
+    width: 100%; /* for IE 6 */
+ }
+.banner-image img{
+}
+.banner h2{
+    text-align: center;
+    font-size: 66px;
+    position: absolute;
+    top: 250px;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.62);
+}
+.button {
+    background: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 150px;
+}
+
+.info{
+background:whitesmoke; 
+
+
+
+}
+
+section.quote{
+    padding: 5px;
+}
+section.quote h2{
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Slackey', cursive;
+}
+section.quote p{
+    width: 32%;
+    text-align: center;
+    margin-left: 470px;
+    font-size: 22px;
+    padding: 10px
+}
+section.products h2{
+    width: 45%;
+    font-size: 45px;
+    text-align: center;
+    margin-left: 120px;
+    margin-top: 150px;
+
+}
+.products .items{
+	width: 33%;
+    background-color: #efefef;
+    height: 400px;
+    display: inline-block;
+    margin-left: 1px;
+}
+
+.product .item{
+    width: 33%;
+    background-color: #efefef;
+    height: 400px;
+    display: inline-block;
+    margin-left: 1px;
+}
+.products .item{
+	width: 33%;
+    background-color:#76b82a;
+    height: 400px;
+    display: inline-block;
+    margin-left: 1px;
+}
+.footers{
+    display: block;
+    background-color:#76b82a;
+    height: 250px;
+}
+.footers .newsletter{
+    margin-top: 28px;
+    font-size: larger;
+    margin-left: 90px;
+}
+.footer{
+   display: -webkit-box;
+    margin-left: 180px;
+    margin-top: 17px;
+}
+div.quick-links{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+div.quick-links h2{
+    font-size: 30px;
+}
+div.quick-links p{
+    text-align: center;
+    font-style: oblique;
+    font-size: x-large;
+}
+div.social-media{
+    margin-left: 250px;
+    margin-top: 20px;
+}
+div.social-media h2{
+    font-size: 30px;
+}
+div.social-media p{
+    text-align: center;
+    font-style: oblique;
+    font-size: x-large;
+}
+div.newsletter p{
+    font-size: 25px;
+}
+nav.testiomanl-nav{
+    margin-bottom: -40px;
+}
+.contact-details{
+	width: 100%;
+    height: auto;
+    background-color: #fff;
+    margin-top: 70px;
+    padding: 0em 0px 18em 0em;;   
+}
+
+.contact-details .map{
+	width:59%;
+	float:left;
+}
+
+.contact-details .details{
+	width:65%;
+	float:right;
+	width: 550px;
+	margin-top: -310px; 
+}
+}
+.newsletter form{
+	width:100%;
+	height:auto;
+	color:#000; 
+}
+.detials form{
+	width:100%;
+	height:auto;
+	color:#000;
+}
+
+label{
+	width:80%;
+	height:30px;
+	clear:both;  
+}
+
+input{
+	width:80%;
+	height:40px;
+	color:#000;
+}
+
+textarea{
+	width:80%;
+	height:80px;
+	clear:both;   
+}
+select{
+	width:80%;
+	height:40px;
+	padding:20px;
+	clear:both;   
+}
+
+input[type="select"]{
+	height:40px; 
+}
+div.details form {
+    margin-top: 250px;
+}
+div.history{
+    width: 49%;
+    padding: 3px;
+    background: rgba(118, 184, 42, 0.79);
+    color: #ffffff;
+    float: right;
+    margin-top: -490px;
+}
+
+div.history p{
+    font-size: 18px;
+    font-weight: 320;
+    line-height: 29px;
+    text-align: center;
+    padding: 10px;
+
+}
+div.map iframe{
+    border: 0;
+    margin-top: -48px;
+    margin-left: 20px; 
+}
+
+section h1{
+    text-align: center;
+    font-size: 25px;
+    padding: 2em;
+}
+
+.info{
+   display: -webkit-box;
+    padding: 20px;
+    width: 97%;
+    text-align: center;
+    height: 9em;
+    font-size: 15px;
+    line-height: 32px;
+    text-align: center;
+}
+
+.info h3{
+    color: #76b82b;
+    font-family: sans-serif;
+    font-size: 22px;
+    margin-left: 20px;
+}
+
+.info1{
+    width: 25%
+}
+.info2{
+    width: 25%
+}
+.info3{
+    width: 25%
+}
+.info4{
+    width: 25%
+}
+
+div.info p{
+        width: 17em;
+    padding: 10px;
+    margin-left: 35px;
+}
